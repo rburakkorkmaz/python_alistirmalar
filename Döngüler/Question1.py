@@ -13,7 +13,7 @@ def decide_winner(user_choice, computer_choice):
     return "user" if user_choice == 0 else "computer"
 
   
-move_choice = input(f"Lütfen Taş, Kağıt veya Makastan birini seçiniz.")
+move_choice = input(f"Lütfen Taş, Kağıt veya Makastan birini seçiniz.\n")
 
 computer_choice = random.randint(0, 2)
 print(computer_choice)
